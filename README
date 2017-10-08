@@ -6,7 +6,7 @@ Ho voluto impattare il meno possibile nei files del CKAN. Per cui ho lavorato su
 1) Scaricare il Docker del TeamIT e modificarlo secondo i punti seguenti PRIMA di lanciare ./build_local.sh
 2) Sostituire i files header.html e base.html in ckan/templates. Sono inseriti i link ai js del webkit del design e cambia il menu di navigazione. Introdotti "Enti" e "Temi" al posto di Organizzazioni e Gruppi
 3) Opzionale sostituire la dir LC_MESSAGES in ckan/ckan/ckan/i18n/it. Corretti alcuni errori.
-4) Modificare o sostituire il file layout2.html (cambia la classe "main" in "main2" del div) che si trova in templates/home/. Serve per avere solo una sezione e uno sfondo omogeneo.
+4) Modificare o sostituire il file layout2.html (cambia la classe "main" in "main2" del div) che si trova in templates/home/. Serve per avere solo una sezione e uno sfondo omogeneo. in home/snippets/ sostituire search.html
 5) Copiare la cartella "build" in public/base/javascript/ . Contiene i files del webkit del Design dell'AGID.
 4) Seguire il punto 1) digitando  ./build_local.sh ect.
 5) Una volta che il Docker è attivo, entrare in localhost:5000 come ckanadmin e andare in configurazione, incollando nella sezione "custom css" il contenuto del file configurazione-custom-css.txt
