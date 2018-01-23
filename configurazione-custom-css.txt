@@ -361,3 +361,10 @@ background: transparent !important;
 border-color: rgb(253,139,37);
 border:1px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px), screen and (min-width: 992px) and (max-width: 1365px), screen and (min-width: 1366px) {
+ .Header-logo img {
+    height: 9.5rem;
+    width: 9.5rem;
+  }
+  }
